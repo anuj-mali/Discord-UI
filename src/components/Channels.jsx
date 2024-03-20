@@ -4,7 +4,7 @@ const Channels = () => {
   return (
     <div className="fixed bg-gray-800 h-screen w-60 text-white overflow-scroll flex flex-col">
       <section className="topbar hover:bg-gray-700 cursor-pointer">
-        <div className="">Project Gang</div>
+        <div className="">Anime Server</div>
         <div className="text-gray-400">
           <FaChevronDown size={12} />
         </div>

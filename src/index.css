@@ -14,7 +14,7 @@
 
 @layer components {
     .sidebar-item {
-        @apply relative flex items-center justify-center min-h-12 max-h-12 w-12 mt-2 mx-auto shadow-lg bg-gray-800 text-green-500 cursor-pointer hover:bg-green-600 hover:text-white rounded-3xl hover:rounded-xl transition-all duration-150 ease-linear;
+        @apply relative flex items-center justify-center min-h-12 max-h-12 w-12 mt-2 mx-auto shadow-lg bg-gray-800 text-green-500 cursor-pointer hover:bg-green-600 hover:text-white rounded-3xl hover:rounded-xl transition-all duration-150 ease-linear group-hover:rounded-xl;
     }
 
     .sidebar-tooltip {
@@ -31,6 +31,23 @@
 
     .sidebar-item.discord-icon {
         @apply hover:bg-blue-600 text-white;
+    }
+
+    .server-messages {
+        @apply absolute w-2 h-2 bg-gray-200 -left-4 rounded-lg;
+    }
+
+    .server-unread-messages {
+        @apply server-messages group-hover:h-5 transition-all ease-linear duration-100;
+    }
+
+
+    .active-server {
+        @apply server-messages h-8;
+    }
+
+    .active-server+img {
+        @apply rounded-xl;
     }
 
     .topbar {
