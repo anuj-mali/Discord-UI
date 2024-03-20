@@ -1,8 +1,17 @@
-# React + Vite
+# Discord UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Just a UI clone of desktop version of discord using ReactJS + Vite and Tailwind CSS.
 
-Currently, two official plugins are available:
+Currently, non-responsive
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Steps to run
+
+- Clone the repository
+  > `git clone https://github.com/anuj-mali/Discord-UI.git`
+- Change the directory
+  > `cd Discord-UI`
+- Install dependencies
+  > `npm install`
+- Start server
+  > `npm run dev` <br>
+  > Open http://localhost:5173 in the browser.
