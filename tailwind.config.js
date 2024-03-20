@@ -2,6 +2,9 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      gg_sans: ["gg sans", "sans-serif"],
+    },
     extend: {
       colors: {
         gray: {

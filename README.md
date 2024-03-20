@@ -15,3 +15,13 @@ Currently, non-responsive
 - Start server
   > `npm run dev` <br>
   > Open http://localhost:5173 in the browser.
+- Build the site
+  > `npm run build` <br>
+  > The built site is stored in `dist` directory.
+
+## TODO
+
+- [x] Sidebar
+- [ ] Server Channels
+- [ ] Chat
+- [ ] Dark Mode
